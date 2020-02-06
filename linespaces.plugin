@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=linespaces
+IAge=3
+Name=Line Spacing
+Description=Set spaces between lines
+Authors=Hamad Al Marri <hamad.s.almarri@gmail.com>
+Copyright=Copyright (C) 2000 Hamad Al Marri
+Website=https://github.com/hamadmarri
