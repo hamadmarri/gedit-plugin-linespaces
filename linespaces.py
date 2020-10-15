@@ -16,11 +16,13 @@ class LineSpacing(GObject.Object, Gedit.ViewActivatable):
 	def do_activate(self):
 		if self.view:
 			self.view.set_pixels_below_lines(self.pixels)
+			self.view.set_pixels_above_lines(self.pixels)
 
 
 	def do_deactivate(self):
 		if self.view:
 			self.view.set_pixels_below_lines(0)
+			self.view.set_pixels_above_lines(0)
 
 
 
